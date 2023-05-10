@@ -79,13 +79,17 @@ main {
 
 .mammoth-img {
     max-width: 100%;
-    align-self: center;    
+    align-self: center;   
+    border-radius: 20px; 
 }
 
 h1 {
     color: #FDFFFC;
-    font-size: 1.5em;
-    align-self: center;
+    font-size: 2em;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    right: 0%;
 }
 
 p {
@@ -94,8 +98,18 @@ p {
     text-align: center;
 }  
 
+.a-tag {
+    position: absolute;
+    bottom: 1%; 
+    left: 3%; 
+    text-decoration: none;
+    color:#FDFFFC;
+    font-size: 1.5em; 
+}
+
 .gradient-background-green {
-    padding: 10px;
+    margin-top: -10%; 
+    padding: 15% 5%;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(83,143,96,1) 89%);
 }
@@ -226,13 +240,6 @@ footer {
         align-self: center;
     }
 
-    h1 {
-        position: absolute;
-        top: 4%;
-        right: 15%; 
-        font-size: 1.3em;
-    }
-
     .mammoth-text {
         position: absolute;
         top: 10%; 
@@ -242,11 +249,8 @@ footer {
     }
     
     .a-tag {
-        position: absolute;
         bottom: 3%; 
         left: 3%; 
-        text-decoration: none;
-        color:#FDFFFC;
         font-size: 1.2em; 
     }
     
@@ -287,22 +291,36 @@ footer {
     .menu {
         left: 30%;
     }
+
+    h1 {
+        top: 4%;
+        left: 50%;
+        right: 5%; 
+        font-size: 1.3em;
+    }
 }
 
 
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
     main {
         margin: 3% 2.5%;
     }
 
     h1 {
-        top: 6%;
-        right: 12%; 
+        top: 4%;
+        left: 50%;
+        right: 5%; 
     }
 
     .mammoth-text {
         top: 12%; 
         right: 8%;
         font-size: 0.8em;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        left: 63%; 
     }
 }
