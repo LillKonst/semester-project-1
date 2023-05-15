@@ -1,0 +1,6 @@
+@media only screen and (max-width: 800px) and (min-width: 500px) {
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

@@ -1,0 +1,212 @@
+h1 {
+    color: #000000; 
+    font-size: 2em; 
+    font-weight: 700; 
+}
+
+.entrance-font {
+    font-size: 1.2em; 
+    font-weight: 600;
+    padding: 10px; 
+
+}
+
+.museum-img {
+    max-width: 100%; 
+    border-radius: 20px; 
+}
+
+.yellow-background {
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -10%; 
+}
+
+h2 {
+    margin-top: 10%;
+    margin-bottom: 3%; 
+    font-size: 1.5em; 
+}
+
+.font-small {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 2%;
+}
+
+h3 {
+    font-size: 2em;
+    padding: 10px; 
+}
+
+p {
+    font-size: 1em; 
+    font-weight: 500;
+    padding: 10px; 
+}
+
+.map {
+ 
+    max-width: 350px;
+    align-self: center;
+    order: 3;
+    
+}
+
+.margin5 {
+    margin-top: 3%; 
+}
+
+.flexbox {
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+
+    .yellow-background {
+        max-width: 900px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 3%; 
+    }
+
+    .column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font-small {
+        font-size: 1em;
+        font-weight: 600;
+        padding: 0%;
+    }
+
+    h2 {
+        font-size: 1.5em; 
+        padding-bottom: 5px;
+        margin-bottom: 2%; 
+    }
+
+    .flex-text {
+        flex-direction: column;
+        max-width: 100%;
+        margin-top: 5%; 
+    }
+
+    .map {
+        width: 350px; 
+        align-self: center;
+    
+    }
+
+}
+
+@media (min-width: 800px) {
+
+
+    .flexbox {
+        flex-direction: row;
+    }
+    .flex-text {
+        flex-direction: column;
+        max-width: 50%;
+        margin-right: 5%; 
+        margin-top: 5%; 
+    }
+
+    .map {
+        width: 300px; 
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    .centered {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .museum-img {
+        z-index: 2;
+    }
+
+    .yellow-background {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    .centered {
+        flex-direction: row;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1%; 
+    }
+
+    .yellow-background {
+        height: 477px; 
+        min-width: 300px; 
+        margin: 0; 
+        margin-left: -5%; 
+    }
+
+    .gb-blue-left2 {
+        background: rgb(45,147,190);
+        background: linear-gradient(90deg, rgba(45,147,190,1) 10%, rgba(255,255,255,1) 100%);
+    }
+
+    h2 {
+        margin: 0%;
+        margin-left: 10%;
+        font-size: 1.5em; 
+    }
+
+    .row {
+        flex-direction: column;
+        padding-bottom: 0%;
+    }
+
+    .font-small {
+        margin-left: 10%; 
+        font-weight: 600;
+        padding: 0%;
+    }
+
+    .flex-text {
+        max-width: 65%;
+        margin-right: 5%; 
+        margin-top: 5%; 
+    }
+
+    .map {
+        width: 350px; 
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+    .yellow-background { 
+        min-width: 400px; 
+    }
+}
+
+@media (min-width: 1500px) {
+    .yellow-background { 
+        min-width: 500px; 
+    }
+}

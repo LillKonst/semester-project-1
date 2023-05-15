@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community Science Museum | Homepage</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -17,19 +18,20 @@
   <body>
     <header>
       <div class="background-header"></div>
-      <img
-        src="images/community-science-museum-LOGO.svg.svg"
-        alt="logo"
-        class="logo"
-      />
+      <a href="index.html"
+        ><img
+          src="images/community-science-museum-LOGO.svg.svg"
+          alt="logo"
+          class="logo"
+      /></a>
       <label class="mobile-display" aria-label="hamburger" for="hamburger-menu"
         ><i class="fa-solid fa-bars"></i
       ></label>
       <input type="checkbox" id="hamburger-menu" />
       <nav>
         <ul class="menu">
-          <li><a href="#">VISIT US</a></li>
-          <li><a href="#">EXHIBITIONS</a></li>
+          <li><a href="visit-us.html">VISIT US</a></li>
+          <li><a href="exhibitions.html">EXHIBITIONS</a></li>
           <li><a href="#">GET INVOLVED</a></li>
           <li><a href="#">CONTACT US</a></li>
         </ul>
@@ -40,108 +42,119 @@
         <img
           src="images/mammoth-1257288_1920-2.jpg"
           alt="skeleton of a mammoth small picture"
-          class="mammoth-img mobile-display"
+          class="big-img mobile-display"
         />
         <img
           src="images/mammoth-1257288_1920-1.jpg"
           alt="skeleton of a mammoth big picture"
-          class="mammoth-img desktop-display"
+          class="big-img mammoth-img desktop-display"
         />
         <h1>EXPLORE TOGETHER</h1>
 
-        <div class="desktop-display mammoth-text">
-          <p>Come join us at the Community Science Museum where we’re</p>
-          <p>committed to making science accessible to all.</p>
-        </div>
-        <a class="a-tag" href="#"> -> EXHIBITIONS</a>
+        <a class="a-tag" href="exhibitions.html"> -> EXHIBITIONS</a>
       </section>
-      <div class="gradient-background-green mobile-display">
-        <p>
+      <div class="gradient-background-green width100">
+        <p class="mobile-display">
           Are you a young person looking to learn more about science? Come on
           down to our museum, there’s plenty to see and do.
         </p>
       </div>
 
-      <h2>EXPLORE</h2>
+
       <section class="explore-box">
-        <div class="circle-boxes">
+        <a href="for-kids.html" class="circle-box width100">
           <img
             src="images/istockphoto-973293328-612x612-1.jpg"
             alt="kids looking at a science thing"
-            class="circle-image"
+            class="circle-image width100"
           />
-          <div class="gradient-background gradient-background-blue">
-            <h3>FOR KIDS</h3>
+          <div class="gradient-background-small gb-blue">
+            <h3 class="centered-text h3-index">FOR KIDS</h3>
           </div>
-        </div>
-        <div class="circle-boxes">
+        </a>
+        <div class="circle-box width100">
           <img
             src="images/samuel-zeller-113381-1.jpg"
             alt="anatomi doll with a hat"
-            class="circle-image"
+            class="circle-image width100"
           />
-          <div class="gradient-background gradient-background-yellow">
-            <h3>FOR TEACHERS</h3>
+          <div class="gradient-background-small gb-yellow">
+            <h3 class="centered-text h3-index">FOR TEACHERS</h3>
           </div>
         </div>
-        <div>
+        <div class="circle-box width100">
           <img
             src="images/scientific-2040795_1280-1.jpg"
             alt="researcher looking into machine"
-            class="circle-image"
+            class="circle-image width100"
           />
-          <div class="gradient-background gradient-background-purple">
-            <h3>FOR RESEARCHERS</h3>
+          <div class="gradient-background-small gb-purple-small">
+            <h3 class="centered-text h3-index">FOR RESEARCHERS</h3>
           </div>
+       
+          <div class="circle-box width100 mobile-display container">
+            <img
+              src="images/andrew-ruiz-348421-1.jpg"
+              alt="astronaut in spaceship"
+              class="circle-image width100"
+            />
+          <p class="upcoming-events-text">UPCOMING EVENTS</p> 
         </div>
       </section>
-      <h2 class="desktop-display">UPCOMING EVENTS</h2>
-      <section class="explore-box">
-        <div class="container circle-boxes">
+      <h2 class="desktop-display centered-text">UPCOMING EVENTS</h2>
+      <section class="explore-box desktop-display">
+        <div class="circle-box width100">
           <img
             src="images/andrew-ruiz-348421-1.jpg"
             alt="astronaut in spaceship"
-            class="circle-image"
+            class="circle-image width100"
           />
-          <p class="upcoming-events-text mobile-display">UPCOMING EVENTS</p>
-          <h4 class="desktop-display">20 / 05</h4>
-          <h4 class="desktop-display">Visiting Professor of Aeronautics</h4>
-          <p class="desktop-display">
+          
+          <h4>20 / 05</h4>
+          <h4>Visiting Professor of Aeronautics</h4>
+          <p class="pp">
             In this holiday camp we will be directing our focus to the outer
             space. Come join us and learn about the origins of stars, planets
             and galaxys.
           </p>
+          <a href="#" class="cta">READ MORE</a>
         </div>
 
-        <div class="desktop-display circle-boxes">
+
+        
+
+        <div class=" circle-box width100">
           <img
             src="images/david-troeger-M8xxVih_V_U-unsplash-1.jpg"
             alt="turtle swimming in the ocean"
-            class="circle-image"
+            class="circle-image width100"
           />
           <h4>28 / 05</h4>
           <h4>Energetica Exhibition on Loan</h4>
-          <p>
+          <p class="pp">
             n this holiday camp we will be directing our focus to the sea. Join
             us to learn about the importance of coral reefs and all the
             incredible creatures living there.
           </p>
+          <a href="#" class="cta">READ MORE</a>
         </div>
-        <div class="desktop-display circle-boxes">
+        <div class=" circle-box width100">
           <img
             src="images/jon-butterworth-_BJVJ4WcV1M-unsplash-1.jpg"
             alt="dinosaur skeleton"
-            class="circle-image"
+            class="circle-image width100"
           />
           <h4>04 / 06</h4>
           <h4>Night in the Museum</h4>
-          <p>
+          <p class="pp">
             In this holiday camp we will be travelling back in time to learn
             about the time when the great dinosaurs ruled the world. And what
             event lead them to extinction?
           </p>
+          <a href="#" class="cta">READ MORE</a>
         </div>
       </section>
+      
     </main>
     <footer></footer>
   </body>
