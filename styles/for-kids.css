@@ -1,3 +1,54 @@
 .bold-text {
     font-weight: 600;
+    padding-top: 20px; 
+}
+
+.padding-top {
+    padding-top: 20px; 
+}
+
+h4 {
+    font-size: 1.5em; 
+}
+
+h5 {
+    padding: 3%; 
+}
+
+.kids-img {
+    max-width: 100%;
+    align-self: center;   
+    border-radius: 20px; 
+}
+
+.column2 {
+    flex-direction: column;
+}
+@media (min-width: 800px) {
+
+    .column2 {
+        flex-direction: row;
+    }
+    
+    h1, .centered-text {
+        text-align: left; 
+        margin-top: 5%; 
+
+    }
+    .kids-img {
+        max-width: 40%; 
+        margin-top: -5%; 
+    }
+
+    .order2 {
+        order: 2; 
+    }
+
+    .padding-right {
+        padding-right: 5%; 
+    }
+
+    .padding-top {
+        padding-top:  
+    }
 }

@@ -86,6 +86,10 @@ main {
     flex-direction: column;
 }
 
+.desktop-display {
+    display: none;
+}
+
 .centered-text {
     text-align: center;
 }
@@ -130,23 +134,14 @@ p {
     display: flex;
 }
 
+
+
 .width100 {
     width: 100%;
 }
 
 .circle-image {
     clip-path: circle(50% at 50% 50%);
-}
-
-.cta-button {
-    background-color: #FB5229;
-    font-size: 1.5em;
-    font-weight: 600;
-    border-color: #FB5229;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px 50px; 
-    align-items: center;
 }
 
 .cta {
@@ -159,6 +154,7 @@ p {
     padding: 10px; 
     margin: 20%; 
     margin-top: 20%;
+    
 }
 
 .circle-box {
