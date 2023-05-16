@@ -2,7 +2,7 @@
 
 h1 {
     color: #FDFFFC;
-    font-size: 2em;
+    font-size: 1.6em;
     position: absolute;
     bottom: 90%;
     left: 0%;
@@ -21,7 +21,7 @@ p {
     right: 3%; 
     text-decoration: none;
     color:#FDFFFC;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 600; 
 }
 
