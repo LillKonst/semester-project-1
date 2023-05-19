@@ -445,7 +445,7 @@ a {
 footer a {
     font-size: 1.1em;
     font-weight: 600; 
-    color: #FDFFFC;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -466,6 +466,7 @@ footer a {
 
 .some-logos {
     max-width: 40px; 
+    margin: 5%; 
 }
 
 .bold {
@@ -524,6 +525,7 @@ footer a {
 
     .footer-text1 {
         font-size: 0.8em; 
+        color: #FFFFFF;
     }
 
     .footer-text2 {
