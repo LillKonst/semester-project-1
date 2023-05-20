@@ -124,16 +124,9 @@ p {
 }
 
 
-
-
-
-
-
-
 .flexbox {
     display: flex;
 }
-
 
 
 .width100 {
@@ -241,15 +234,11 @@ a {
 
 @media (max-width: 600px) {
 
-
-
     .padding10 {
         padding-left: 2%;
         padding-right: 2%;
-    }
-    
-    
-    }
+    }    
+}
 
 
 @media (min-width: 800px) {
@@ -411,10 +400,6 @@ a {
         padding-bottom: 10%; 
     }
 
-    .cta-button {
-        font-size: 1em;
-    }
-
     .cta {
         font-size: 1em;
     }
@@ -496,8 +481,6 @@ footer a {
         font-size: 1.2em;
         
     } 
-
-
 
     h3 {
         font-size: 2em;
