@@ -12,7 +12,7 @@ html body {
     background-color: #FDFFFC;
     width: 100%;
     margin: 0%;
-    font-family: "Inter";
+    font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -289,6 +289,10 @@ a {
     main {
         display: flex;
         flex-direction: column;
+    }
+
+    .mobile-display {
+        display: none; 
     }
 
 
