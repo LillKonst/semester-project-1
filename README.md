@@ -1,7 +1,3 @@
-# semester-project-1
-Community Science Museum
-
-
 # COMMUNITY SCIENCE MUSEUM
 
 ![image](https://github.com/LillKonst/semester-project-1/assets/126065743/51356757-9fed-48ee-ab47-a6a28ea1d4cb)
