@@ -15,8 +15,8 @@ The website includes a homepage, list of exhibitions, exhibitionspesific, about 
 
 ## Getting started
 To get a closer look at this website you can 
-1. Clone my github repo: [https://github.com/LillKonst/rainydays-test-js](https://github.com/LillKonst/semester-project-1)
-2. Open website with the Netlify app using this link: [https://singular-caramel-e690d5.netlify.app/](https://sensational-macaron-ac9139.netlify.app/)
+1. Clone my github repo: (https://github.com/LillKonst/semester-project-1)
+2. Open website with the Netlify app using this link: (https://sensational-macaron-ac9139.netlify.app/)
 
 ## Contact 
 If you are interessted in more details or want to get in contact with me, you are welcome to sending me an email at konstlillkristine@gmail.com
